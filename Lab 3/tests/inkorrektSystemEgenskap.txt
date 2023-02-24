@@ -1,0 +1,17 @@
+[[s0, [s0, s1]], 
+ [s1, [s0, s2]], 
+ [s2, [s2, s3]], 
+ [s3, [s2, s4, s5]], 
+ [s4, [s2]],  
+ [s5, [s0]]]. 
+
+[[s0, []], 
+ [s1, [on, starting]], 
+ [s2, [on]], 
+ [s3, [on, req]], 
+ [s4, [on, work]], 
+ [s5, [on, sd]]].  
+
+s0. 
+
+ax(ag(and(starting, sd))).
